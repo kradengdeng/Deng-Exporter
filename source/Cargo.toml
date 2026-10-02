@@ -1,0 +1,13 @@
+[package]
+name = "DengExporter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27"
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.12", features = ["stream", "rustls-tls"], default-features = false }
+futures-util = "0.3"
+
+[build-dependencies]
+winres = "0.1"
