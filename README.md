@@ -43,23 +43,6 @@ Built in Rust. Powered by `yt-dlp`. Zero setup.
 - **Rust toolchain:** to build from source ([install Rust](https://www.rust-lang.org/tools/install))
 - *(Optional)* `yt-dlp` and `ffmpeg`: if they aren't on your `PATH`, Deng installs them locally automatically.
 
----
-
-## Getting Started
-
-```powershell
-# 1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-# 2. Build and run
-cargo run --release
-```
-
-On first launch, Deng will fetch any missing dependencies. After that, just paste a link and go.
-
----
-
 ## Controls
 
 | Key | Action |
