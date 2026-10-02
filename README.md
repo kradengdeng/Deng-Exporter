@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎧 Deng : Exporter
+# Deng : Exporter
 
 **A fast, good-looking terminal app for downloading YouTube audio & video.**
 Built in Rust. Powered by `yt-dlp`. Zero setup.
@@ -20,23 +20,23 @@ Built in Rust. Powered by `yt-dlp`. Zero setup.
 
 ---
 
-## ✨ Features
+## Features
 
-| | Feature | Description |
-|---|---|---|
-| 🎨 | **Custom TUI** | Fully hand-rendered terminal interface using `crossterm` with TrueColor RGB. |
-| 📦 | **Auto-install** | Missing `yt-dlp` or `ffmpeg`? Deng downloads and sets them up for you on first run. |
-| 🎵 | **MP3 / MP4 modes** | Switch between audio and video with a single key. |
-| 📃 | **Batch downloads** | Point it at a `.txt` file of links and let it work through the list. |
-| ⚡ | **Queue & Fast modes** | Download one by one (Queue) or in parallel (Fast DL). |
-| 📊 | **Live progress** | Real-time percentages and video titles for every item. |
-| 🧭 | **Scrollable list** | Large batches scroll while the header and footer stay anchored. |
-| 📁 | **Native folder picker** | Press `Tab` to choose your output folder in Windows Explorer. |
-| 🛑 | **Instant cancel** | Stop active downloads at any time with `Space`. |
+| Feature | Description |
+|---|---|
+| **Custom TUI** | Fully hand-rendered terminal interface using `crossterm` with TrueColor RGB. |
+| **Auto-install** | Missing `yt-dlp` or `ffmpeg`? Deng downloads and sets them up for you on first run. |
+| **MP3 / MP4 modes** | Switch between audio and video with a single key. |
+| **Batch downloads** | Point it at a `.txt` file of links and let it work through the list. |
+| **Queue & Fast modes** | Download one by one (Queue) or in parallel (Fast DL). |
+| **Live progress** | Real-time percentages and video titles for every item. |
+| **Scrollable list** | Large batches scroll while the header and footer stay anchored. |
+| **Native folder picker** | Press `Tab` to choose your output folder in Windows Explorer. |
+| **Instant cancel** | Stop active downloads at any time with `Space`. |
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - **OS:** Windows 10 / 11
 - **Terminal:** [Windows Terminal](https://aka.ms/terminal) (recommended, for TrueColor support)
@@ -45,7 +45,7 @@ Built in Rust. Powered by `yt-dlp`. Zero setup.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```powershell
 # 1. Clone the repository
@@ -60,7 +60,7 @@ On first launch, Deng will fetch any missing dependencies. After that, just past
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key | Action |
 |:---:|---|
@@ -71,11 +71,11 @@ On first launch, Deng will fetch any missing dependencies. After that, just past
 | `Space` | Cancel all active downloads |
 | `↑` / `↓` | Scroll through the download list |
 
-> 💡 Downloads are saved to your **Downloads** folder by default.
+> **Tip:** Downloads are saved to your **Downloads** folder by default.
 
 ---
 
-## 📥 Usage
+## Usage
 
 ### Single download
 
@@ -118,7 +118,7 @@ Then enter the full path to the file at the prompt:
 
 ---
 
-## 🛠 Built With
+## Built With
 
 - [Rust](https://www.rust-lang.org/): performance and safety
 - [Tokio](https://tokio.rs/): async runtime for concurrent downloads
@@ -128,12 +128,12 @@ Then enter the full path to the file at the prompt:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Issues and pull requests are welcome. If you have an idea or found a bug, feel free to [open an issue](../../issues).
 
 ---
 
-## ⚠️ Disclaimer & License
+## Disclaimer & License
 
 This project is for **educational purposes only**. Please respect YouTube's Terms of Service and the rights of content creators. Only download content you have permission to save.
